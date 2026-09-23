@@ -1,0 +1,23 @@
+/AniPeek #ชื่อโปรเจค
+ ├── /screen #โฟล์เดอร์ใช้เก็บหน้าหลัก 3 หน้า
+ │   ├── AnimeList_Resouce #ข้อมูลทรัพยากรของ Anime เช่น เรื่องย่อและรูป
+ │   ├── HomeScreen.js #หน้า Home
+ │   ├── CategoriesScreen.js #หน้า Categories
+ │   ├── DetailScreen.js #หน้า Detail-Anime
+ │   │ 
+ ├── /navigator #โฟล์เดอร์ใช้เก็บการตั้งค่า Navigation แต่ละตัว 
+ │   ├── TabNavigator.js #การตั้งค่า Bottom Tab Navigator
+ │   ├── StackNavigator.js #การตั้งค่า Stack Navigator สำหรับ Home>Detail
+ │   ├── StackNavigator2.js #การตั้งค่า Stack Navigator สำหรับ Categories>หมวดต่างๆ
+ │   │
+ ├── /Categories #โฟล์เดอร์ใช้เก็บหน้าหมวดหมู่ต่างๆ
+ │   ├── Action.js #หน้าหมวดหมู่ Action
+ │   ├── Romance.js #หน้าหมวดหมู่ Romance
+ │   ├── Comedy.js #หน้าหมวดหมู่ Comedy
+ │   ├── Fantasy.js #หน้าหมวดหมู่ Fantasy
+ │   ├── Horror.js #หน้าหมวดหมู่ Horror
+ │   ├── Drama.js #หน้าหมวดหมู่ Drama
+ │   ├── Sport.js #หน้าหมวดหมู่ Sport
+ │   ├── Scifi.js #หน้าหมวดหมู่ Sci-Fi
+ │
+ ├── App.js # ไฟล์หลักของแอป
